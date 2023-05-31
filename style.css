@@ -36,7 +36,7 @@ main{
      border-radius: 24px;
      color: #0A3871;
      margin-left: 98px;
-     margin-top: 20px;
+     
      margin-top: 20px;
      padding-left: 20px;
      position: flex;
@@ -85,3 +85,80 @@ main{
     color: #495057;   
     font-size: 18px;
 }
+
+/*************************************************/
+/*************@media queries 480px******************/
+/*************************************************/
+/*************************************************/
+
+
+
+
+@media screen and (max-width:480px){
+ 
+
+
+.logo{
+   
+    width: 30%;
+}
+main{
+    width: 100%;
+    display:block;
+    margin-bottom: 50px;
+    margin-left: 0px;
+   
+}
+textarea{
+    width: 90%;
+    margin: 10px;
+    padding: 0px;
+    
+}
+
+.mensaje{
+    
+     width: 95%;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 20px;
+     padding-left: 20px;
+    
+}
+
+    
+
+.botones{
+     display: block;
+     margin: 10px;
+     /*margin-top: 18px; */
+       
+}
+.btn-desencriptar{
+    margin-left: 0px;
+    width: 95%;
+
+
+}
+.btn-encriptar{
+    margin-bottom: 10px;
+    height: 67px;
+    
+    width: 95%;
+}
+.copiar{
+    
+    margin-left: 10px;
+    margin-top: 20px;
+    position: absolute;
+    width: 95%;
+}
+
+}
+/*************************************************/
+/*************@media queries 481px and 786px********/
+/*************************************************/
+/*************************************************/
+@media (min-width: 481px) and (max-width: 786px) {
+    /* … */
+  }
