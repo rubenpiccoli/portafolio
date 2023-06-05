@@ -7,10 +7,25 @@
     line-height: 150%;
 }
 
+
 .logo{
     padding-top: 10px;
     margin-left: 10px;
     width: 10%;
+}
+.iconos{
+    display: inline;
+    position: flex;
+    margin-left: 70px;
+  
+}
+.iconoredes{
+    
+    width:30px
+}
+.iconoredes:hover{
+    transform: scale(0.5);
+    transition: 500ms;
 }
 main{
     display: flex;
@@ -102,6 +117,10 @@ main{
    
     width: 30%;
 }
+.iconoredes{
+    
+    width:20px
+}
 main{
     width: 100%;
     display:block;
@@ -161,4 +180,48 @@ textarea{
 /*************************************************/
 @media (min-width: 481px) and (max-width: 786px) {
     /* … */
+    
+    
+    .logo{
+        
+        width: 30%;
+    }
+    .iconoredes{
+    
+        width:20px
+    }
+    main{
+        width: 100%;
+        display:block;
+        margin-bottom: 50px;
+        margin-left: 0px;
+       
+    }
+    .text-area{
+        
+        width: 100%;
+    }
+   
+    .mensaje{
+        width: 90%;
+         margin-left: 10px;
+         
+        
+    }
+    .mensaje:focus{
+        outline: none;
+        
+    }
+    
+    .btn-encriptar{
+       margin-left: 5px;
+    }
+    .copiar{
+      
+        margin-left: 60px;
+        
+    }
+    
+    
+
   }

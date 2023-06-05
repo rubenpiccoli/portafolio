@@ -15,10 +15,14 @@
 <body>
     <header>
         <img class="logo" src="imagenes/Logo.png" alt="logo de alura" >
+            <div class="iconos">
+                <a href="https://www.linkedin.com/in/rub%C3%A9n-piccoli-17535b275/"> <img  class="iconoredes" src="imagenes/linkedin.png" alt="icono linkedin"></a>
+                <a href="https://github.com/rubenpiccoli"><img  class="iconoredes" src="imagenes/logotipo-de-github.png" alt="icono github"></a>
+            </div>
     </header>
     <main>
          <section>
-                  <textarea class="text-area" placeholder="Ingrese el texto aqui"  cols="30" rows="10"></textarea>
+                  <textarea class="text-area" placeholder="Ingrese el texto aqui"  cols="30" rows="10" onkeypress="return soloLetras(event);"></textarea>
                   <div>
                       <h6 class="informacion"><i class="fa-solid fa-circle-exclamation fa-lg"></i> </i>Solo letras minúsculas y sin acentos</h6>
                   </div>
@@ -30,7 +34,8 @@
          </section>
          <section>
             
-            <textarea class="mensaje" cols="20" rows="13"></textarea>
+            <textarea id="mensaje" class="mensaje" cols="20" rows="13">
+            </textarea>
             <div>
                 <button class="copiar" onclick="copiar()">Copiar</button>
             
